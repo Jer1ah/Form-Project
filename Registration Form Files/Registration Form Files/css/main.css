@@ -1,0 +1,198 @@
+/*Base Styles*/
+
+form input, form select, form textarea {
+   display: block;
+}
+
+body {
+    margin: 0;
+    background-color: #fcfcfc;
+    font-family: 'Playfair Display', serif;
+}
+
+#wrapper {
+    max-width: 94%;
+    margin: auto;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+
+header legend {
+    font-size: 2em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#newsletter legend {
+    font-size: 2em;
+    margin-top: 1em;
+    display: block;
+}
+
+#newsletter {
+    margin-top: 2em;
+}
+
+/*Header Styles*/ 
+
+#title {
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    color: white;
+    background: #4c5059;
+}
+
+hr {
+   border: 1px solid black;
+   width: 95%;
+}
+
+.tp {
+    border: 3px solid black;
+}
+
+.bt {
+   margin-bottom: 2em;    
+}
+
+#main {
+    text-align: center;
+}
+
+#contact {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+/*Form Styling*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #999999;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1em;
+    color: #848484;
+}
+
+.inline {
+    margin-left: .5em;
+}
+
+
+label.inline, input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #7bc4a4;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    height: 50px;
+}
+
+form {
+    margin-bottom: 12em;
+}
+
+span {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    margin-top: 17px;
+    color: #a7aaa9;
+}
+
+#top {
+    margin-top: .9em;
+    width: 60%;
+}
+
+#zipcode {
+    width: 50%;
+}
+
+input::-webkit-input-placeholder {
+  color: #999999;
+  font-style: italic;
+  text-align: right;
+}
+
+input:focus {
+     border: 2px solid darkgray;
+}
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+    
+    #wrapper {
+        max-width: 60%
+    }
+    
+    hr {
+        width: 100%;
+    }
+    
+    header {
+        max-width: 90%;
+        margin: auto;
+    }
+    
+    #zipcode {
+        width: 35%;
+    }
+    
+form input, form select {
+     max-width: 70%;
+     display: inline-block;
+    }
+ 
+    form label {
+    width: 25%;
+  }
+    
+}
+
